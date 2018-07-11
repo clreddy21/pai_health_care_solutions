@@ -1,0 +1,46 @@
+.wrapper.row3
+  .container
+    .row
+      .col-xl-8.offset-xl-2.col-lg-10.offset-lg-1.col-12
+        %h1
+          %strong='Non-Clinical Services'
+
+
+    .row
+      .col-xl-8.offset-xl-2.col-lg-10.offset-lg-1.col-12.m-w-800
+        #myCarousel.carousel.slide{"data-ride" => "carousel"}
+          / Indicators
+          %ol.carousel-indicators
+            %li.active{"data-slide-to" => "0", "data-target" => "#myCarousel"}
+            %li{"data-slide-to" => "1", "data-target" => "#myCarousel"}
+            %li{"data-slide-to" => "2", "data-target" => "#myCarousel"}
+            %li{"data-slide-to" => "3", "data-target" => "#myCarousel"}
+            %li{"data-slide-to" => "4", "data-target" => "#myCarousel"}
+          / Wrapper for slides
+          .carousel-inner
+            .item.active
+              %img{:alt => "Non-Clinical Services", :src => image_url("non_clinical_services_1.jpg")}/
+            .item
+              %img{:alt => "Non-Clinical Services", :src => image_url("non_clinical_services_2.jpg")}/
+            .item
+              %img{:alt => "Non-Clinical Services", :src => image_url("non_clinical_services_3.jpg")}/
+            .item
+              %img{:alt => "Non-Clinical Services", :src => image_url("non_clinical_services_4.jpg")}/
+            .item
+              %img{:alt => "Non-Clinical Services", :src => image_url("non_clinical_services_5.jpg")}/
+          / Left and right controls
+          %a.left.carousel-control{"data-slide" => "prev", :href => "#myCarousel"}
+            %span.glyphicon.glyphicon-chevron-left
+            %span.sr-only Previous
+          %a.right.carousel-control{"data-slide" => "next", :href => "#myCarousel"}
+            %span.glyphicon.glyphicon-chevron-right
+            %span.sr-only Next
+
+    .row.m-t-50
+      .col-xl-8.offset-xl-2.col-lg-10.offset-lg-1.col-12
+        %p='Medical Coding Services'
+        %p='Medical Transcription Services'
+        %p='Medical Record Services'
+        %p='Training Solutions'
+
+
