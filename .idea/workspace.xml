@@ -2,27 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0014642-2825-48ac-8395-49bc83caf491" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/welcomes/about_us.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/welcomes/advanced_medical_coder.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/welcomes/ar_calling.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/welcomes/ar_training.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/welcomes/contact_us.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/welcomes/cpc_exam_training.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/welcomes/current_openings.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/welcomes/medical_billing.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/welcomes/medical_billing_training.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/welcomes/medical_coding.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/welcomes/medical_coding_training.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/welcomes/medical_record_review.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/welcomes/medical_record_review_training.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/welcomes/medical_transcription.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/welcomes/medical_transcription_training.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/welcomes/non_clinical_services.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/welcomes/online_training.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/welcomes/physiotherapy_services.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/welcomes/professional_medical_coder.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/welcomes/training_solutions.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pai_health_care_solutions.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pai_health_care_solutions.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -38,11 +21,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="non_clinical_services.html.haml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/welcomes/non_clinical_services.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
+            <state relative-caret-position="153">
               <caret line="9" column="64" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="64" />
             </state>
           </provider>
@@ -51,17 +34,8 @@
       <file leaf-file-name="common.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/common.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
+            <state relative-caret-position="799">
               <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="medical_coding.html.haml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/welcomes/medical_coding.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="9" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -78,8 +52,8 @@
       <file leaf-file-name="training_solutions.html.haml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/welcomes/training_solutions.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="36" lean-forward="true" selection-start-line="34" selection-end-line="36" />
+            <state relative-caret-position="612">
+              <caret line="36" selection-start-line="34" selection-end-line="36" />
             </state>
           </provider>
         </entry>
@@ -96,7 +70,7 @@
       <file leaf-file-name="professional_medical_coder.html.haml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/welcomes/professional_medical_coder.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
+            <state relative-caret-position="357">
               <caret line="21" selection-start-line="21" selection-end-line="22" />
             </state>
           </provider>
@@ -105,17 +79,26 @@
       <file leaf-file-name="advanced_medical_coder.html.haml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/welcomes/advanced_medical_coder.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="255">
               <caret line="15" column="122" selection-start-line="15" selection-start-column="122" selection-end-line="15" selection-end-column="122" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cpc_exam_training.html.haml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cpc_exam_training.html.haml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/welcomes/cpc_exam_training.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
+            <state relative-caret-position="17">
               <caret line="20" column="159" selection-start-line="20" selection-start-column="159" selection-end-line="20" selection-end-column="159" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
             </state>
           </provider>
         </entry>
@@ -124,7 +107,7 @@
         <entry file="file://$PROJECT_DIR$/app/views/welcomes/online_training.html.haml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="20" column="50" lean-forward="true" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+              <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -153,7 +136,6 @@
         <option value="$PROJECT_DIR$/app/views/welcomes/current_openings.html.haml" />
         <option value="$PROJECT_DIR$/app/views/welcomes/about_us.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/common.js" />
         <option value="$PROJECT_DIR$/app/views/welcomes/contact_us.html.haml" />
@@ -171,6 +153,7 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/common.css" />
         <option value="$PROJECT_DIR$/app/views/welcomes/online_training.html.haml" />
         <option value="$PROJECT_DIR$/app/views/welcomes/cpc_exam_training.html.haml" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -199,8 +182,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="RailsProjectView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -394,33 +377,42 @@
       <option name="presentableId" value="Default" />
       <updated>1531213061058</updated>
       <workItem from="1531213075634" duration="21338000" />
+      <workItem from="1531326820990" duration="3612000" />
     </task>
+    <task id="LOCAL-00001" summary="boom">
+      <created>1531326900338</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1531326900338</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21338000" />
+    <option name="totallyTimeSpent" value="24950000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="20" width="1346" height="688" extended-state="0" />
+    <frame x="10" y="20" width="1346" height="688" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3292683" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962406" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3292683" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
@@ -431,7 +423,81 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="boom" />
+    <option name="LAST_COMMIT_MESSAGE" value="boom" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/views/welcomes/non_clinical_services.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="64" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/welcomes/medical_coding.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="9" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/welcomes/ar_calling.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/welcomes/training_solutions.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" lean-forward="true" selection-start-line="34" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/welcomes/medical_coding_training.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/welcomes/professional_medical_coder.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/welcomes/advanced_medical_coder.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="122" selection-start-line="15" selection-start-column="122" selection-end-line="15" selection-end-column="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/welcomes/online_training.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="50" lean-forward="true" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/welcomes/cpc_exam_training.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="159" selection-start-line="20" selection-start-column="159" selection-end-line="20" selection-end-column="159" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/welcomes_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="492">
@@ -517,13 +583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -589,7 +648,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/welcomes/non_clinical_services.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
+        <state relative-caret-position="153">
           <caret line="9" column="64" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="64" />
         </state>
       </provider>
@@ -603,8 +662,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/welcomes/training_solutions.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="36" lean-forward="true" selection-start-line="34" selection-end-line="36" />
+        <state relative-caret-position="612">
+          <caret line="36" selection-start-line="34" selection-end-line="36" />
         </state>
       </provider>
     </entry>
@@ -617,21 +676,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/welcomes/professional_medical_coder.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
+        <state relative-caret-position="357">
           <caret line="21" selection-start-line="21" selection-end-line="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/welcomes/advanced_medical_coder.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="255">
           <caret line="15" column="122" selection-start-line="15" selection-start-column="122" selection-end-line="15" selection-end-column="122" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/common.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
+        <state relative-caret-position="799">
           <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
         </state>
       </provider>
@@ -639,14 +698,21 @@
     <entry file="file://$PROJECT_DIR$/app/views/welcomes/online_training.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" column="50" lean-forward="true" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/welcomes/cpc_exam_training.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="17">
           <caret line="20" column="159" selection-start-line="20" selection-start-column="159" selection-end-line="20" selection-end-column="159" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
         </state>
       </provider>
     </entry>
