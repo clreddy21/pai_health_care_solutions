@@ -1,3 +1,6 @@
+= javascript_include_tag "https://maps.googleapis.com/maps/api/js?key=AIzaSyCkUOdZ5y7hMm0yrcCQoCvLwzdM6M8s5qk&callback=initMap", :defer => "defer"
+
+
 .wrapper.row3
   .container
     .row
@@ -5,23 +8,21 @@
         %h1
           %strong='About US'
 
-        #div
+        #map
+
+
+
 
 
 
 :javascript
-      <script>
-        // Initialize and add the map
-        function initMap() {
-          // The location of Uluru
-          var uluru = {lat: -25.344, lng: 131.036};
-          // The map, centered at Uluru
-          var map = new google.maps.Map(
-            document.getElementById('map'), {zoom: 4, center: uluru});
-          // The marker, positioned at Uluru
-          var marker = new google.maps.Marker({position: uluru, map: map});
-        }
-          </script>
-          <script async defer
-          src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
-          </script>
+  // Initialize and add the map
+  function initMap() {
+    // The location of Uluru
+    var uluru = {lat: 17.440695841571024, lng: 78.44245925545692};
+    // The map, centered at Uluru
+    var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: uluru});
+    // The marker, positioned at Uluru
+    var marker = new google.maps.Marker({position: uluru, map: map});
+  }
