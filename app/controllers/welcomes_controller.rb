@@ -65,5 +65,7 @@ class WelcomesController < ApplicationController
   def contact_us
   end
 
+  def spoken_english
 
+  end
 end

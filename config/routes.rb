@@ -23,6 +23,7 @@ Rails.application.routes.draw do
   	get 'medical-record-review-training', to: :medical_record_review_training
   	get 'medical-billing-training', to: :medical_billing_training
   	get 'ar-training', to: :ar_training
+  	get 'spoken-english', to: :spoken_english
   	get 'current-openings', to: :current_openings
   	get 'about-us', to: :about_us
   	get 'contact-us', to: :contact_us
