@@ -10,25 +10,26 @@
           %i.fa.fa-envelope-o
           pai.healthcaresolutions@gmail.com
     .fl_right
-      %ul.nospace
-        %li
-          %a{:href => "#"}
-            %i.fa.fa-lg.fa-home
-        %li
-          %a{:href => "#"} About
-        %li
-          %a{:href => "#"} Contact
-        %li
-          %a{:href => "#"} Login
-        %li
-          %a{:href => "#"} Register
+      -#%ul.nospace
+      -#  %li
+      -#    %a{:href => "#"}
+      -#      %i.fa.fa-lg.fa-home
+      -#  %li
+      -#    %a{:href => "#"} About
+      -#  %li
+      -#    %a{:href => "#"} Contact
+      -#  %li
+      -#    %a{:href => "#"} Login
+      -#  %li
+      -#    %a{:href => "#"} Register
 .wrapper.row1
   %header#header.hoc.clear
     / ################################################################################################
     #logo.fl_left
       %h1
-        %a{:href => root_path} PAI
-      %p Pai HealthCare Solutions
+        %a{:href => root_path}
+          %img{:alt => "Non-Clinical Services", :src => image_url("pailogo.jpeg"), :style => "max-width:60px !important"}/
+      -#%p Pai HealthCare Solutions
     / ################################################################################################
     %nav#mainav.fl_right
       %ul.clear
