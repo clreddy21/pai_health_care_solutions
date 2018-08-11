@@ -1,17 +1,31 @@
 .wrapper.bgded.overlay{:style => "background-image:url('images/demo/backgrounds/01.png');"}
-  #pageintro.hoc.clear
-    / ################################################################################################
-    %article
-      %p.heading Quisque viverra euismod
-      %h2.heading
-        %span.block Scelerisque
-        interdum
-      %footer
-        %a{:href => "#"} Malesuada fames »
-    / ################################################################################################
-/ ################################################################################################
-/ ################################################################################################
-/ ################################################################################################
+  #pageintro1.clear
+    #myCarousel.carousel.slide{"data-ride" => "carousel"}
+      %ol.carousel-indicators
+        %li.active{"data-slide-to" => "0", "data-target" => "#myCarousel"}
+        %li{"data-slide-to" => "1", "data-target" => "#myCarousel"}
+        %li{"data-slide-to" => "2", "data-target" => "#myCarousel"}
+        %li{"data-slide-to" => "3", "data-target" => "#myCarousel"}
+        %li{"data-slide-to" => "4", "data-target" => "#myCarousel"}
+          / Wrapper for slides
+      .carousel-inner
+        .item.active
+          %img{:alt => "Non-Clinical Services", :src => image_url("non_clinical_services_1.jpg")}/
+        .item
+          %img{:alt => "Non-Clinical Services", :src => image_url("non_clinical_services_2.jpg")}/
+        .item
+          %img{:alt => "Non-Clinical Services", :src => image_url("non_clinical_services_3.jpg")}/
+        .item
+          %img{:alt => "Non-Clinical Services", :src => image_url("non_clinical_services_4.jpg")}/
+        .item
+          %img{:alt => "Non-Clinical Services", :src => image_url("non_clinical_services_5.jpg")}/
+          / Left and right controls
+      %a.left.carousel-control{"data-slide" => "prev", :href => "#myCarousel"}
+        %span.glyphicon.glyphicon-chevron-left
+        %span.sr-only Previous
+      %a.right.carousel-control{"data-slide" => "next", :href => "#myCarousel"}
+        %span.glyphicon.glyphicon-chevron-right
+        %span.sr-only Next
 .wrapper.row3.hoc.p-3p
   %p= "&nbsp;".html_safe
   %p='PAI is one of the best Medical Coding Training Institutes in Chennai also providing certification programmes on the Healthcare IT sector. Among the various domains of Healthcare that include Clinical Healthcare, Healthcare financing, administration, research and information technology, we offer academic certifications to enter the field of Healthcare Information Technology.'
