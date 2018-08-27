@@ -35,7 +35,7 @@ File: Layout CSS
 --------------------------------------------------------------------------------------------------------------- */
 #header{}
 
-#header #logo{margin-top:25px;}
+#header #logo{margin-top:10px;}
 #header #logo *{margin:0; padding:0; line-height:1;}
 #header #logo h1{font-size:22px; font-variant:small-caps;}
 #header #logo p{font-size:12px; text-transform:lowercase;}
