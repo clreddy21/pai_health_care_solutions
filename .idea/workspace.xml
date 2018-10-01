@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f0014642-2825-48ac-8395-49bc83caf491" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/welcomes/contact_us.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/welcomes/contact_us.html.haml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -388,7 +386,7 @@
       <workItem from="1534149767277" duration="680000" />
       <workItem from="1534178625387" duration="1190000" />
       <workItem from="1535357453293" duration="160000" />
-      <workItem from="1538400099809" duration="483000" />
+      <workItem from="1538400099809" duration="514000" />
     </task>
     <task id="LOCAL-00001" summary="boom">
       <created>1531326900338</created>
@@ -495,15 +493,21 @@
       <option name="project" value="LOCAL" />
       <updated>1533985572951</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="boom">
+      <created>1538400589821</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1538400589822</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50665000" />
+    <option name="totallyTimeSpent" value="50696000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
